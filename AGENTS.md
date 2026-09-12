@@ -91,7 +91,7 @@ the known confusion hot-spots.
 - Use `from __future__ import annotations` for forward references
 - Group imports: standard library, third-party, local (blank line separated)
 - Use `TYPE_CHECKING` guard for type-checking-only imports
-- Absolute imports within `py/`: `from ..services import X`
+- Relative imports within `py/`: `from ..services import X`
 - PEP 8 with 4-space indentation, type hints required
 
 #### Naming Conventions
